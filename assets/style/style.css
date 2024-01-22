@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: #ff6902;
+}
+
+.container{
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu{
+    height: 50px;
+    display: flex;
+    color: white;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.logo{
+    width: 130px;
+    height: 100%;
+    background-size: cover;
+}
+
+.menu-buttons{
+    color: white;
+}
+
+header ul{
+    list-style: none;
+}
