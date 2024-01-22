@@ -40,3 +40,60 @@ button{
 header ul{
     list-style: none;
 }
+
+.product-ad{
+    max-width: 335px;
+    max-height: 530px;
+}
+
+.product.image{
+    max-width: 335px;
+    max-height: 485px;
+}
+
+.first-image{
+    z-index: 1;
+}
+
+.second-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.first-image:hover {
+  display: none;
+}
+
+.discount{
+    position: absolute;
+    top: 430px;
+    left: 0;
+    color: white;
+    height: 20px;
+    width: 40px;
+    background-color: #ff0001;
+    z-index: 2;
+}
+
+.sustainability{
+    position: absolute;
+    top: 430px;
+    left: 45px;
+    color: white;
+    height: 20px;
+    width: 80px;
+    background-color: #038102;
+    z-index: 2;
+}
+
+.saved{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    z-index: 2;
+}
