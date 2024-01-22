@@ -41,12 +41,15 @@ header ul{
     list-style: none;
 }
 
-.product-ad{
+.product-page{
+    display: flex;
+    flex-direction: column;
     max-width: 335px;
     max-height: 530px;
+    font-size: x-small;
 }
 
-.product.image{
+.product-image{
     max-width: 335px;
     max-height: 485px;
 }
@@ -68,6 +71,7 @@ header ul{
 
 .discount{
     position: absolute;
+    display: flex;
     top: 430px;
     left: 0;
     color: white;
@@ -75,10 +79,12 @@ header ul{
     width: 40px;
     background-color: #ff0001;
     z-index: 2;
+    justify-content: center;
 }
 
 .sustainability{
     position: absolute;
+    display: flex;
     top: 430px;
     left: 45px;
     color: white;
@@ -86,14 +92,48 @@ header ul{
     width: 80px;
     background-color: #038102;
     z-index: 2;
+    justify-content: center;
 }
 
 .saved{
     position: absolute;
+    display: flex;
     top: 10px;
     right: 0;
     height: 35px;
     width: 35px;
     background-color: white;
     z-index: 2;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 335px;
+    max-height: 45px;
+}
+
+.brand{
+    font-size: xx-small;
+    color: gray;
+}
+
+.product-name{
+    font-size: x-small;
+    font-weight: bolder;
+}
+
+.actual-price{
+    color: red;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.old-price{
+    text-decoration: line-through;
+    font-size: smaller;
 }
